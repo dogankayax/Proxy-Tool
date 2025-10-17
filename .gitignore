@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Proxies / runtime artifacts
+src/**/proxies.txt
+src/**/ngrok
+src/**/ngrok.tgz
+
+# Termux specific
+.storage/
+
+# Lock files
+pip-log.txt
+pip-delete-this-directory.txt
